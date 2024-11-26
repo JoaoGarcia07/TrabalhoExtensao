@@ -1,0 +1,176 @@
+.container-footer{
+    width: 100%;
+    height: 450px;
+    background-color: #102d5d;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    hr {
+        width: 90%;
+    }
+}
+.footer-logo{
+    margin-left: 5%;
+    width: 95%;
+    height: 20%;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    img {
+        width: 180px;
+        object-fit: cover;
+    }
+}
+.footer-content{
+    margin-top: 20px;
+    width: 80%;
+    height: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    div {
+      width: 25%; 
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      gap: 20px;
+      a {
+        text-decoration: none;
+        color: #fff;
+        font-size: 20px;
+        font-weight: 300;
+        transition: all 0.3s;
+      }
+      a:hover {
+        transition: all 0.3s;
+        font-size: 22px;
+        font-weight: 600;
+        color: #44EE77;
+      }
+    }
+    .nations {
+        width: 200px;
+        height: 40px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        border: 2px solid #c9c9c9;
+        border-radius: 15px;
+        h1{
+            font-size: 16px;
+            color: #fff;
+            font-weight: 300;
+            margin-left: 15px;
+        }
+    }
+    .links-rede{
+        width: 25%;
+        height: 35%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        h1 {
+            font-size: 20px;
+            color: #fff;
+            font-weight: 400;
+        }
+        .rede-logo {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            align-items: center;
+            flex-direction: row;
+            #instagram {
+                color: #C13584;
+                transition: all 0.5s;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+            }
+            #instagram:hover{
+                color: #fff;
+                transition: all 0.5s;
+                width: 35px;
+                height: 35px;
+                border-radius: 50%;
+                background: linear-gradient(#405DE6, #C13584, #FCAF45
+                );
+            }
+            #whatsapp{
+                color: #25d366;
+                transition: all 0.5s;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+            }
+            #whatsapp:hover{
+                color: #fff;
+                transition: all 0.5s;
+                width: 35px;
+                height: 35px;
+                border-radius: 50%;
+                background: #25d366;
+            }
+            #facebook{
+                color: 	#3b5998;
+                transition: all 0.5s;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+            }
+            #facebook:hover{
+                color: #fff;
+                transition: all 0.5s;
+                width: 35px;
+                height: 35px;
+                border-radius: 50%;
+                background: #3b5998;
+            }
+            #twitter{
+                color: #1DA1F2;
+                transition: all 0.5s;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+            }
+            #twitter:hover{
+                color: #fff;
+                transition: all 0.5s;
+                width: 35px;
+                height: 35px;
+                border-radius: 50%;
+                background: #1DA1F2;
+            }
+        }
+    }
+    
+}
+.footer-direitos{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    h1 {
+        font-size: 22px;
+        color: #fff;
+        font-weight: 400;
+    }
+}
+
+
+

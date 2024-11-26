@@ -1,0 +1,58 @@
+/* Section "Sobre Nós" */
+.about-section-empresas {
+    margin-top: 30px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-container-empresas{
+    width: 70%;
+    background-color: #278844;
+    border-radius: 15px;
+    color: white;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.about-content-empresas {
+    max-width: 900px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.about-image-empresas {
+    width: 250px;
+    height: auto;
+    border-radius: 10px;
+    border: 4px solid white;
+}
+
+.about-text-empresas {
+    max-width: 500px;
+}
+
+.about-text-empresas h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.about-text-empresas p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+.title-sobre{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    h1{
+        text-transform: uppercase;
+        color: #278844;
+        font-size: 30px;
+        font-weight: 600;
+    }
+}
