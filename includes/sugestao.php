@@ -6,22 +6,24 @@ include "includes/header.php";
 <div class="main">
     <div class="sugestao-content">
         <div class="sugestao-container">
-            <div class="sugestao-text">
-                <p>Tem um parque favorito ou conhece uma área verde que merece destaque? Indique aqui! Sua sugestão pode ajudar a enriquecer nosso site com novas opções de lazer e natureza para todos aproveitarem."</p>
-            </div>
-            <div class="sugestao-form">
-                <div class="form-logo"><img src="assets/img/logoCentroVerdeBranco.png"></div>
-                <form>
-                    <h1>Nome:</h1>
-                    <input type="text" id="name" name="name" placeholder="Digite seu nome..." required>
-                    <h1>Cidade:</h1>
-                    <input type="text" id="cidade" name="cidade" placeholder="Digite sua cidade..." required>
-                    <h1>Estado:</h1>
-                    <input type="text" id="estado" name="estado" placeholder="Digite seu estado..." required>
-                    <h1>Mensagem:</h1>
-                    <textarea name="message" id="message" placeholder="Digite sua sugestão..." required></textarea>
-                    <div class="btn-enviar"><button type="submit">Enviar</button></div>
-                </form>
+            <div style="display: grid; grid-template-columns: repeat(3, 1fr);">
+                <div style="padding: 15px; text-align: center; align-content: center;">
+                    <img src="assets/img/Qrcode.jpg">
+                </div>
+                <div style="padding: 15px; text-align: center;">
+                    <h1>Centro <span style="color: #FFFFFF;">Frada</span></h1>
+                    <p style="padding: 15px; color: #FFFFFF;">
+                    Acesse seu APP de pagamentos e faça a leitura do QR Code ao lado
+                    para efetuar o pagameto de forma rápida e segura.                    </p>
+                    <p style="padding: 15px; color: #FFFFFF;">Código para pagamento: </p>
+                    <div style="display: grid; grid-template-columns: repeat(2, 1fr);">
+                        <div style="padding: 15px; margin: 15px; background-color: #FFFFFF; border-radius: 5px;"><p>041000405557875855br.gov.br</p></div>
+                        <div style="align-content: center;"><button>Copiar código</button></div>
+                    </div>
+                </div>
+                <div style="padding: 15px; text-align: center; align-content: center;">
+                    <img src="assets/img/Dog2.png">
+                </div>
             </div>
         </div>
     </div>

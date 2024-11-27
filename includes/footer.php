@@ -2,6 +2,7 @@
     <div class="footer-logo">
         <img src="assets/img/LogoFradaMenor.jpg">
     </div>
+    <br>
     <hr>
     <div class="footer-content">
         <div>
