@@ -21,10 +21,10 @@
         <div class="links-rede">
             <h1>Siga-nos nas redes sociais</h1>
             <div class="rede-logo">
-                <a href="#" id="instagram"><i class="fa-brands fa-instagram" ></i></a>
-                <a href="#" id="whatsapp"><i class="fa-brands fa-whatsapp"></i></a>
-                <a href="#" id="facebook"><i class="fa-brands fa-facebook"></i></a>
-                <a href="#" id="twitter"><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://www.instagram.com/fradajoinville?igshid=OGQ5ZDc2ODk2ZA%3D%3D" target="_blank" id="instagram"><i class="fa-brands fa-instagram" ></i></a>
+                <a href="https://wa.me/5547988058728?" target="_blank" id="whatsapp"><i class="fa-brands fa-whatsapp"></i></a>
+                <a href="https://www.facebook.com/share/bD52ZoWCeh92k1tB/?mibextid=WC7FNe" target="_blank" id="facebook"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://twitter.com/frada_joinville" target="_blank" id="twitter"><i class="fa-brands fa-twitter"></i></a>
             </div>
         </div>
     </div>

@@ -59,16 +59,19 @@
         width: 200px;
         height: 40px;
         display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: center;
+        flex-direction: row; /* Elementos dispostos na horizontal */
+        align-items: center; /* Centraliza verticalmente */
+        justify-content: center; /* Centraliza horizontalmente */
+        text-align: center;
         border: 2px solid #c9c9c9;
         border-radius: 15px;
+        gap: 10px; /* Espaço entre a imagem e o texto */
         h1{
             font-size: 16px;
             color: #fff;
             font-weight: 300;
-            margin-left: 15px;
+            margin: 0; /* Remove o deslocamento lateral */
+            text-align: center; /* Alinha o texto internamente */
         }
     }
     .links-rede{

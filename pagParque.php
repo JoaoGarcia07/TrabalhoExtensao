@@ -1,5 +1,5 @@
 <?php
-$title = "Parques";
+$title = "Adoção";
 include "includes/header.php";
 ?>
 

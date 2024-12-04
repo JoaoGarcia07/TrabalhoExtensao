@@ -1,29 +1,21 @@
-// Sistema EmailJS
+// Função para copiar o texto
+function copiarChavePix() {
+    // Obtém o conteúdo do parágrafo
+    const chavePix = document.getElementById('chavePix').innerText;
 
-const form = document.querySelector('form');
+    // Usa a API Clipboard para copiar o texto
+    navigator.clipboard.writeText(chavePix)
+        .then(() => {
+            alert('Chave Pix copiada com sucesso!');
+        })
+        .catch(err => {
+            console.error('Erro ao copiar a chave Pix:', err);
+            alert('Falha ao copiar a chave Pix.');
+        });
+}
 
-function emailSend(e) {
-    e.preventDefault();
-    const serviceID = 'service_xduoz2j';
-    const templateID = 'template_muyovwo';
-
-    const valor = {
-        from_name: document.querySelector('#name').value,
-        cidade: document.querySelector('#cidade').value,
-        estado: document.querySelector('#estado').value,
-        message: document.querySelector('#message').value
-    };
-
-    emailjs.send(serviceID, templateID, valor)
-    .then(() => {
-        console.log('SUCCESS!');
-        form.reset();
-    })
-    .catch(err => console.log('FAILED...', err));
-};
-
-form.addEventListener('submit', emailSend);
-
+// Adiciona o evento de clique ao botão
+document.querySelector('.copiar').addEventListener('click', copiarChavePix);
 
 // POP-UPS DOS PARQUES
 document.querySelector("#button-ecoparque").addEventListener("click", () => {
@@ -73,4 +65,4 @@ document.querySelector("#button-parqueaurora").addEventListener("click", () => {
 document.querySelector("#close-parqueaurora").addEventListener("click", () => {
     document.querySelector("#parqueaurora").style = "display: none"
 }
-)
+);
