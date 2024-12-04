@@ -1,5 +1,5 @@
 <?php
-$title = "Sugestão";
+$title = "Doar";
 include "includes/header.php";
 ?>
 
@@ -7,7 +7,7 @@ include "includes/header.php";
 include "includes/navbar.php";
 ?>
 
-<div class="title-sugestao">
+<div class="title-sugestao"> 
     <h1>Doar</h1>
 </div>
 <?php

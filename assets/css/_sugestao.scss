@@ -126,6 +126,32 @@
     }
 }
 
+.copiar {
+    width: 150px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.3);
+    border-radius: 25px;
+    border: none;
+    outline: none;
+    background: #44EE77;
+    color: #000;
+    font-size: 18px;
+    transition: all 0.3s;
+    z-index: 1;
+}
+
+.copiar:hover {
+    transition: all 0.3s;
+    transform: scale(1.05);
+    color: #fff;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.4);
+    background: linear-gradient(#32af58, #2a9149);
+    font-weight: 500;
+}
+
 /*
 .home-text-doar{
     width: 80%;
@@ -185,4 +211,4 @@
         }
     }
 }
-/*
+*/
